@@ -1,19 +1,4 @@
+###Réseau de neurone pour la reconnaissance visuel machine (multilayer perceptron for computer vision)
 
-
-% Typeset piecewise functions using cases
-\documentclass{article}
-
-% Required package
-\usepackage{amsmath,amssymb}
-
-\begin{document}
-
-\begin{equation}
-\chi_{\mathbb{Q}}(x)=
-    \begin{cases}
-        1 & \text{if } x \in \mathbb{Q}\\
-        0 & \text{if } x \in \mathbb{R}\setminus\mathbb{Q}
-    \end{cases}
-\end{equation}
-
-\end{document}
+##Le Perceptron
+Dans leur livre de 1969: _Perceptrons: an introduction to computationnal geometry_, Marvin Minsky et Seymour Papert définissent le perceptron: C'est une fonction de classifiaction f telle que: $f:/{mathbb{R}^n} \to Set{0,1} $
